@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML😍 Quiz</title>
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="myLogo.png" alt="" class="myImg">
+        <p>MSK</p>
+    </div>
+
+    <i class="ri-volume-mute-fill" id="speaker" onclick="sing();"></i>
+
+    <h1 id="title">HTML Quiz</h1>
+
+<button onclick="startQuiz();" class="start-quiz">Test Your Knowledge😊</button>
+
+    <div class="result">
+    <h1>Your Result:</h1>
+</div>
+
+<div class="container">
+<div class="head">
+    <div class="question-no">Q1</div>
+    <div class="timer">30 ⏰</div>
+</div><!--head-end-->
+
+<div class="question">
+    <p id="question-para"><span id="span">1.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sit alias. Veniam aperiam aliquid numquam repudiandae, laborum?</p>
+</div><!--question-end-->
+
+<div class="options">
+
+   <div class="top-options">
+   <div><label for="option1">Options one</label>
+     <input type="radio" id="option1" name="option" class="option"></div>
+
+   <div><label for="option2">Options two</label>
+     <input type="radio" id="option2" name="option" class="option"></div>
+   </div><!--top-options-end-->
+
+    <div class="bottom-options">
+<div>
+    <label for="option3">Options three</label>
+     <input type="radio" id="option3" name="option" class="option">
+</div>
+
+   <div>
+      <label for="option4">Options four</label>
+     <input type="radio" id="option4" name="option" class="option">
+   </div>
+   </div><!--bottom-options-end-->
+
+</div><!--options-end-->
+
+<div class="buttons">
+    <button onclick="restartGame();">Restart</button>
+    <button onclick="nextQuestion();" class="next-question-btn">Next</button>
+</div>
+
+</div><!--container-end-->
+
+    <script src="script.js"></script>
+</body>
+</html>
