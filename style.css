@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(bgImg.avif);
+  background-image: url(/bgImg.avif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
