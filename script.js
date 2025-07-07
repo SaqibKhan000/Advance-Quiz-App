@@ -161,11 +161,6 @@ const htmlQuiz = [
     correctAnswer: "Left",
   },
   {
-    question: "Which HTML tag is used to make italic text?",
-    options: ["<i>", "<italic>", "<emphasis>", "<em>"],
-    correctAnswer: "<i>",
-  },
-  {
     question: "What does the <title> tag define?",
     options: [
       "The main heading of the page",
